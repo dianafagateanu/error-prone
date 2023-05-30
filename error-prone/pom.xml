@@ -93,7 +93,7 @@
                         <configuration>
                             <compilerArgs>
                                 <arg>-XDcompilePolicy=simple</arg>
-                                <arg>-Xplugin:ErrorProne -XepPatchChecks:ArrayEquals -XepPatchLocation:IN_PLACE</arg>
+                                <arg>-Xplugin:ErrorProne -XepPatchChecks:ArrayEquals,DeadException -XepPatchLocation:IN_PLACE</arg>
                             </compilerArgs>
                         </configuration>
                     </plugin>
