@@ -1,6 +1,6 @@
-### Enable Error Prone specifc checks
+### Enable Error Prone specifc checks for patching
 
-Update pom.xml with the list of specific checks:
+Update patch profile in pom.xml with the list of specific checks that will be patched:
 e.g -XepPatchChecks:ArrayEquals
 
 ### Triggering Error Prone analysis

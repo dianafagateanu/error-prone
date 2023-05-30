@@ -1,8 +1,6 @@
-package com.example.errorprone;
+package com.example.errorprone.bugpatterns;
 
-import java.util.Arrays;
-
-public class Examples {
+public class ArrayEquals {
 
     /**
      * ArrayEquals bug pattern
@@ -10,9 +8,10 @@ public class Examples {
      * <br>
      * Generally when comparing arrays for equality, the programmer intends to check that the contents of the arrays are equal rather than that they are actually the same object.
      * But many commonly used equals methods compare arrays for reference equality rather than content equality.
-    **/
+     **/
 
     public boolean compare(String firstList[], String secondList[]) {
         return firstList.equals(secondList);
     }
+
 }
